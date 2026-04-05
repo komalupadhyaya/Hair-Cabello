@@ -17,8 +17,8 @@ const createCheckoutSession = async (customerData, priceId) => {
             },
         ],
         // Correct URL construction with environment variables
-        success_url: `${process.env.FRONTEND_SIGNUP_URL || 'http://localhost:8080'}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${process.env.FRONTEND_SIGNUP_URL || 'http://localhost:8080'}/cancel`, // Using /cancel to show message
+        success_url: `${process.env.FRONTEND_SIGNUP_URL || 'https://hair-cabello.vercel.app'}/success?session_id={CHECKOUT_SESSION_ID}`,
+        cancel_url: `${process.env.FRONTEND_SIGNUP_URL || 'https://hair-cabello.vercel.app'}/cancel`, // Using /cancel to show message
     });
 
     return session;

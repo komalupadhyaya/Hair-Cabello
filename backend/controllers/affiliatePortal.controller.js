@@ -3,7 +3,7 @@ const Referral = require('../models/Referral');
 const Commission = require('../models/Commission');
 const Creative = require('../models/Creative');
 
-const SIGNUP_BASE_URL = process.env.FRONTEND_SIGNUP_URL || 'http://localhost:8080';
+const SIGNUP_BASE_URL = process.env.FRONTEND_SIGNUP_URL || 'https://hair-cabello.vercel.app';
 
 // GET /api/affiliate/me
 exports.getMe = async (req, res) => {

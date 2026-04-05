@@ -33,9 +33,7 @@ const app = express();
 app.use(morgan('combined'));
 app.use(cors({
     origin: [
-        'https://haircabello.com',
-        'http://localhost:5173',
-        'http://localhost:8080',
+        'https://hair-cabello.vercel.app',
         ...(process.env.FRONTEND_URL ? process.env.FRONTEND_URL.split(',') : [])
     ],
     credentials: true

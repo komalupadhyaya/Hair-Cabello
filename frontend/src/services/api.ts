@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://hair-cabello.onrender.com';
 
 export interface SignupPayload {
     fullName: string;
@@ -56,9 +56,9 @@ export async function updateNextOrderPreferences(data: { hairLength?: string, ha
     const token = localStorage.getItem('token');
     const res = await fetch(`${API_BASE}/api/member/next-order`, {
         method: 'PATCH',
-        headers: { 
+        headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}` 
+            'Authorization': `Bearer ${token}`
         },
         body: JSON.stringify(data),
     });
