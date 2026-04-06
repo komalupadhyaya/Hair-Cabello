@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { adminLogin } from "@/services/api";
-import { Shield, Mail, Lock, ChevronRight } from "lucide-react";
+import { Shield, Mail, Lock, ChevronRight, Sparkle } from "lucide-react";
 import { toast } from "sonner";
 
 const AdminLogin = () => {
@@ -31,10 +31,10 @@ const AdminLogin = () => {
             <div className="max-w-md w-full">
                 <div className="text-center mb-10 text-white">
                     <div className="inline-flex items-center justify-center p-4 bg-slate-800 rounded-3xl shadow-2xl shadow-blue-500/10 mb-6 border border-slate-700">
-                        <Shield className="h-10 w-10 text-blue-400" />
+                        <Sparkle className="h-10 w-10 text-blue-400" />
                     </div>
                     <h1 className="text-3xl font-bold">Admin Login</h1>
-                    <p className="text-slate-400 mt-2 italic text-sm">Leak Assure Control Panel</p>
+                    <p className="text-slate-400 mt-2 italic text-sm">Hair Cabello Control Panel</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="bg-slate-800 rounded-3xl border border-slate-700 p-10 shadow-2xl shadow-black/50 space-y-8">

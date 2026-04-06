@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Droplets, Lock } from "lucide-react";
+import { Droplets, Lock, Sparkle } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -107,8 +107,8 @@ const Admin = () => {
         <>
           <nav className="flex items-center justify-between px-6 py-4 border-b border-border max-w-7xl mx-auto">
             <div className="flex items-center gap-2">
-              <Droplets className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold text-foreground">Leak Assure Admin</span>
+              <Sparkle className="h-6 w-6 text-primary" />
+              <span className="text-lg font-bold text-foreground">Hair Cabello Admin</span>
             </div>
             <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Back to Site

@@ -6,7 +6,8 @@ import {
     Menu,
     X,
     LogOut,
-    Droplets
+    Droplets,
+    Sparkle
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
@@ -141,8 +142,8 @@ export const ResponsiveSidebar = ({
                     <div className="flex items-center gap-3 overflow-hidden">
                         {logo || (
                             <>
-                                <Droplets className="h-8 w-8 text-blue-500 flex-shrink-0" />
-                                {!isCollapsed && <span className="text-xl font-bold tracking-tight truncate">Leak Assure</span>}
+                                <Sparkle className="h-8 w-8 text-blue-500 flex-shrink-0" />
+                                {!isCollapsed && <span className="text-xl font-bold tracking-tight truncate">Hair Cabello</span>}
                             </>
                         )}
                     </div>

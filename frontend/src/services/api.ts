@@ -219,7 +219,7 @@ export async function getClaimById(id: string) { return null; }
 export async function updateClaimStatus(id: string, status: string) { return { message: "Not applicable" }; }
 export async function assignVendor(id: string, vendorId: string) { return { message: "Not applicable" }; }
 export async function addClaimNote(id: string, note: string) { return { message: "Not applicable" }; }
-export async function getClaimsByMember() { return []; }
+export async function getClaimsByMember(memberId: string) { return []; }
 export async function getVendors() { return []; }
 export async function createVendor() { return { message: "Not applicable" }; }
 export async function updateVendor() { return { message: "Not applicable" }; }

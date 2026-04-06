@@ -17,8 +17,8 @@ export default function AffiliateCreatives() {
 
     const typeColor = (t: string) =>
         t === "banner" ? "bg-purple-100 text-purple-700" :
-        t === "link" ? "bg-blue-100 text-blue-700" :
-        "bg-slate-100 text-slate-700";
+            t === "link" ? "bg-blue-100 text-blue-700" :
+                "bg-slate-100 text-slate-700";
 
     return (
         <AffiliateLayout>

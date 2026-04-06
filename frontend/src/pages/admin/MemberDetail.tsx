@@ -17,7 +17,8 @@ import {
     ExternalLink,
     CheckCircle2,
     FileText,
-    History
+    History,
+    Sparkle
 } from "lucide-react";
 import { toast } from "sonner";
 import { AlertModal } from "@/components/ui/AlertModal";
@@ -282,13 +283,13 @@ const MemberDetail = () => {
                     <div className="space-y-6">
                         <div className="bg-slate-900 rounded-2xl p-8 text-white shadow-xl relative overflow-hidden">
                             <div className="absolute top-0 right-0 p-8 opacity-10">
-                                <Shield className="h-24 w-24" />
+                                <Sparkle className="h-24 w-24" />
                             </div>
                             <h3 className="text-sm font-bold uppercase tracking-widest text-blue-400 mb-6">Plan Details</h3>
                             <div className="space-y-6">
                                 <div>
                                     <h4 className="text-2xl font-bold capitalize mb-1">{member.plan} Plan</h4>
-                                    <p className="text-slate-400 text-xs">Leak Assure Full Protection</p>
+                                    <p className="text-slate-400 text-xs">Hair Cabello Full Protection</p>
                                 </div>
                                 <div className="space-y-4">
                                     <div className="flex justify-between items-center text-sm">
